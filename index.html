@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sandeep Traders – Building Materials & Construction Supplies</title>
+  <meta name="description" content="Sandeep Traders – Premium building materials supplier in Gopalganj, Bihar. Balu, Giti, Cement, TMT Rod and more. Contact: 8804442020, 7323000420"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="header">
+    <div class="header-top-bar">
+      <div class="container">
+        <span><i class="fas fa-phone"></i> <a href="tel:8804442020" style="color:var(--gold)">8804442020</a> &nbsp;|&nbsp; <a href="tel:7323000420" style="color:var(--gold)">7323000420</a></span>
+        <span><i class="fas fa-map-marker-alt"></i> At, Pakhopali Rd, Thawe, Gopalganj, Bidesi Tola, Bihar 841440</span>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="container nav-inner">
+        <div class="logo">
+          <div class="logo-icon"><i class="fas fa-hard-hat"></i></div>
+          <div>
+            <span class="logo-title">Sandeep Traders</span>
+            <span class="logo-sub">Building Materials</span>
+          </div>
+        </div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#owners">Owners</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact" class="nav-cta">Contact Us</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO / SLIDER ===== -->
+  <section class="hero" id="home">
+    <div class="slider-wrapper">
+      <div class="slide active" style="background:linear-gradient(135deg,rgba(20,15,5,0.72) 0%,rgba(180,100,10,0.45) 100%), url('images/shop1.jpeg') center/cover no-repeat;">
+        <div class="slide-content">
+          <span class="slide-badge">Bihar's Trusted Supplier</span>
+          <h1>Quality <span class="gold">Building Materials</span><br/>At Your Doorstep</h1>
+          <p>From foundation to finish – everything you need to build your dream.</p>
+          <div class="hero-btns">
+            <a href="#products" class="btn btn-gold">View Products</a>
+            <a href="#contact" class="btn btn-outline">Get a Quote</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background:linear-gradient(135deg,rgba(5,20,35,0.75) 0%,rgba(10,80,150,0.40) 100%), url('images/shop2.jpeg') center/cover no-repeat;">
+        <div class="slide-content">
+          <span class="slide-badge">Est. Since 10+ Years</span>
+          <h1>Premium <span class="gold">Cement & TMT Rod</span><br/>Trusted Brands Only</h1>
+          <p>Supplying top-grade cement, TMT bars & steel for every construction need.</p>
+          <div class="hero-btns">
+            <a href="#products" class="btn btn-gold">Shop Now</a>
+            <a href="#contact" class="btn btn-outline">Call Us Today</a>
+          </div>
+        </div>
+      </div>
+      <div class="slide" style="background:linear-gradient(135deg,rgba(5,30,5,0.72) 0%,rgba(30,130,30,0.40) 100%), url('images/shop3.jpeg') center/cover no-repeat;">
+        <div class="slide-content">
+          <span class="slide-badge">Bulk Orders Welcome</span>
+          <h1>Sand · Gravel · Giti<br/><span class="gold">Delivered Fast</span></h1>
+          <p>Wholesale and retail supply of sand, gravel, and aggregates across Bihar.</p>
+          <div class="hero-btns">
+            <a href="#contact" class="btn btn-gold">Order Now</a>
+            <a href="#about" class="btn btn-outline">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn prev" id="prevSlide"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-btn next" id="nextSlide"><i class="fas fa-chevron-right"></i></button>
+      <div class="slider-dots" id="sliderDots"></div>
+    </div>
+  </section>
+
+  <!-- ===== STATS BAR ===== -->
+  <div class="stats-bar">
+    <div class="container stats-inner">
+      <div class="stat"><i class="fas fa-store"></i><div><strong>10+</strong><span>Years in Business</span></div></div>
+      <div class="stat"><i class="fas fa-users"></i><div><strong>2000+</strong><span>Happy Customers</span></div></div>
+      <div class="stat"><i class="fas fa-truck"></i><div><strong>Fast</strong><span>Home Delivery</span></div></div>
+      <div class="stat"><i class="fas fa-award"></i><div><strong>Premium</strong><span>Quality Products</span></div></div>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about-section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-col">
+        <div class="about-img-frame">
+          <img src="images/shop1.jpeg" alt="Sandeep Traders Shop" style="width:100%;border-radius:12px;height:420px;object-fit:cover;display:block;"/>
+          <div class="about-badge-float"><i class="fas fa-certificate"></i> Trusted Since Day One</div>
+        </div>
+      </div>
+      <div class="about-text-col">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Bihar's Most Reliable <span class="gold">Construction Material</span> Supplier</h2>
+        <p class="about-para">Sandeep Traders has been the go-to destination for builders, contractors, and homeowners across Lahladpur and surrounding areas in Bihar. We believe every strong structure begins with quality raw materials and honest service.</p>
+        <p class="about-para">Our shop offers a comprehensive range of construction essentials – from the finest river sand and graded aggregates to premium cement brands and high-strength TMT reinforcement bars. We are committed to competitive pricing, bulk discounts, and timely delivery.</p>
+        <div class="about-highlights">
+          <div class="highlight-item"><i class="fas fa-check-circle"></i> Genuine Branded Products</div>
+          <div class="highlight-item"><i class="fas fa-check-circle"></i> Bulk & Retail Supply</div>
+          <div class="highlight-item"><i class="fas fa-check-circle"></i> Doorstep Delivery Available</div>
+          <div class="highlight-item"><i class="fas fa-check-circle"></i> Transparent Pricing</div>
+        </div>
+        <a href="#contact" class="btn btn-gold mt-20">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Our <span class="gold">Product Range</span></h2>
+        <p class="section-sub">Everything you need for construction, renovation, and infrastructure projects.</p>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card" data-delay="0">
+          <div class="product-icon" style="background:linear-gradient(135deg,#f59e0b,#d97706)">
+            <i class="fas fa-mountain"></i>
+          </div>
+          <h3>Balu (River Sand)</h3>
+          <p>High-quality river sand ideal for plastering, concrete mixing, and masonry. Screened and graded for construction use.</p>
+          <div class="product-tags"><span>Construction</span><span>Plastering</span><span>Masonry</span></div>
+        </div>
+
+        <div class="product-card" data-delay="100">
+          <div class="product-icon" style="background:linear-gradient(135deg,#64748b,#475569)">
+            <i class="fas fa-gem"></i>
+          </div>
+          <h3>Giti (Gravel/Aggregate)</h3>
+          <p>Well-graded stone aggregate and gravel for concrete foundations, road base, and drainage systems.</p>
+          <div class="product-tags"><span>Foundation</span><span>Concrete</span><span>Road Base</span></div>
+        </div>
+
+        <div class="product-card" data-delay="200">
+          <div class="product-icon" style="background:linear-gradient(135deg,#6b7280,#9ca3af)">
+            <i class="fas fa-industry"></i>
+          </div>
+          <h3>Cement</h3>
+          <p>Premium brand cement (OPC & PPC grades) for all types of construction – residential, commercial & industrial.</p>
+          <div class="product-tags"><span>OPC 43 & 53</span><span>PPC</span><span>PSC</span></div>
+        </div>
+
+        <div class="product-card" data-delay="300">
+          <div class="product-icon" style="background:linear-gradient(135deg,#dc2626,#991b1b)">
+            <i class="fas fa-bars"></i>
+          </div>
+          <h3>TMT Rod (Steel Bar)</h3>
+          <p>Fe 415 & Fe 500 grade thermo-mechanically treated bars for RCC construction with superior strength and ductility.</p>
+          <div class="product-tags"><span>Fe 415</span><span>Fe 500</span><span>RCC</span></div>
+        </div>
+
+        <div class="product-card" data-delay="400">
+          <div class="product-icon" style="background:linear-gradient(135deg,#b45309,#92400e)">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3>Roofing & Shuttering</h3>
+          <p>Corrugated iron sheets, shuttering plates, props, and formwork materials for all slab and roofing work.</p>
+          <div class="product-tags"><span>GI Sheet</span><span>Shuttering</span><span>Formwork</span></div>
+        </div>
+
+        <div class="product-card" data-delay="500">
+          <div class="product-icon" style="background:linear-gradient(135deg,#0891b2,#0e7490)">
+            <i class="fas fa-water"></i>
+          </div>
+          <h3>Waterproofing</h3>
+          <p>Admixtures, chemical waterproofing compounds, and membrane solutions for long-lasting leak-proof construction.</p>
+          <div class="product-tags"><span>Admixture</span><span>Chemical</span><span>Membrane</span></div>
+        </div>
+
+        <div class="product-card" data-delay="600">
+          <div class="product-icon" style="background:linear-gradient(135deg,#059669,#047857)">
+            <i class="fas fa-plug"></i>
+          </div>
+          <h3>Electrical Wire & Fittings</h3>
+          <p>ISI-marked electrical wires, conduits, switches, sockets and general wiring accessories for residential use.</p>
+          <div class="product-tags"><span>ISI Wire</span><span>Conduit</span><span>Fittings</span></div>
+        </div>
+
+        <div class="product-card" data-delay="700">
+          <div class="product-icon" style="background:linear-gradient(135deg,#7c3aed,#6d28d9)">
+            <i class="fas fa-tools"></i>
+          </div>
+          <h3>Construction Tools</h3>
+          <p>Hand tools, mixing equipment, shovels, trowels, safety gear and general site accessories for daily use.</p>
+          <div class="product-tags"><span>Hand Tools</span><span>Safety</span><span>Site Gear</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== OWNERS ===== -->
+  <section class="owners-section" id="owners">
+    <div class="owners-bg-overlay"></div>
+    <div class="container">
+      <div class="section-header light">
+        <span class="section-label">Meet The Family</span>
+        <h2 class="section-title" style="color:#fff">The People Behind <span class="gold">Sandeep Traders</span></h2>
+      </div>
+      <div class="owners-grid">
+
+        <div class="owner-card">
+          <div class="owner-photo-ring">
+            <div class="owner-photo">
+              <img src="images/sandeep.jpeg" alt="Sandeep Kumar" style="width:100%;height:100%;object-fit:cover;object-position:top;border-radius:50%;display:block;"/>
+            </div>
+          </div>
+          <div class="owner-info">
+            <h3>Sandeep Kumar</h3>
+            <span class="owner-role">Co-Founder & Managing Partner</span>
+            <blockquote class="owner-quote">
+              "हर ईंट के पीछे हमारी मेहनत है – हम सिर्फ सामान नहीं, भरोसा बेचते हैं।"<br/>
+              <em>"Behind every brick lies our hard work – we don't just sell materials, we sell trust."</em>
+            </blockquote>
+          </div>
+        </div>
+
+        <div class="owner-card">
+          <div class="owner-photo-ring">
+            <div class="owner-photo">
+              <img src="images/mandeep.jpeg" alt="Mandeep Kumar" style="width:100%;height:100%;object-fit:cover;object-position:top;border-radius:50%;display:block;"/>
+            </div>
+          </div>
+          <div class="owner-info">
+            <h3>Mandeep Kumar</h3>
+            <span class="owner-role">Co-Founder & Operations Head</span>
+            <blockquote class="owner-quote">
+              "गुणवत्ता में कोई समझौता नहीं – यही हमारी पहचान है और यही हमारी ताकत।"<br/>
+              <em>"No compromise on quality – that is our identity and that is our strength."</em>
+            </blockquote>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== REVIEWS ===== -->
+  <section class="reviews-section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Customer Stories</span>
+        <h2 class="section-title">What Our <span class="gold">Customers Say</span></h2>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Sandeep Traders se cement aur TMT rod liya – quality ekdum top-class thi. Delivery bhi time pe aayi. Highly recommended!"</p>
+          <div class="reviewer"><div class="reviewer-avatar">R</div><div><strong>Rajesh Yadav</strong><span>Contractor, Samastipur</span></div></div>
+        </div>
+
+        <div class="review-card featured">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Humne ghar banate waqt poora material yahan se liya. Rate sahi the aur bhaiya log bahut cooperative hain. Bihar mein sabse accha building material shop!"</p>
+          <div class="reviewer"><div class="reviewer-avatar">A</div><div><strong>Amit Kumar Singh</strong><span>Home Builder, Lahladpur</span></div></div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+          <p>"Balu aur giti ka quality bahut acha tha. Sandeep ji ne khud supervise karke delivery diya. Aisa service milna mushkil hai aaj kal."</p>
+          <div class="reviewer"><div class="reviewer-avatar">P</div><div><strong>Pradeep Mishra</strong><span>Civil Engineer, Darbhanga</span></div></div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Bulk order ke liye best place hai. Mandeep ji ne accha discount diya aur sab kuch time pe pahuncha. Phir se order karenge zaroor."</p>
+          <div class="reviewer"><div class="reviewer-avatar">S</div><div><strong>Suresh Thakur</strong><span>Builder, Muzaffarpur</span></div></div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Balu, giti, cement sab ek hi jagah milta hai – bahut convenient hai. Price bhi fair hai market se. Sandeep bhai ka kaam ekdum top hai."</p>
+          <div class="reviewer"><div class="reviewer-avatar">V</div><div><strong>Vijay Paswan</strong><span>Contractor, Gopalganj</span></div></div>
+        </div>
+
+        <div class="review-card">
+          <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p>"Years se in logo ke sath kaam kar raha hun. Kabhi bhi quality mein disappointment nahi hua. Sandeep Traders pe 100% trust karta hun."</p>
+          <div class="reviewer"><div class="reviewer-avatar">M</div><div><strong>Mohammad Alam</strong><span>Architect, Bihar Sharif</span></div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GET IN TOUCH ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info-col">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Contact <span class="gold">Sandeep Traders</span></h2>
+        <p class="contact-intro">Ready to build? Reach out for quotations, bulk orders, delivery enquiries, or any questions about our products.</p>
+
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+            <div>
+              <strong>Phone / WhatsApp</strong>
+              <a href="tel:8804442020">+91 8804442020</a>
+              <a href="tel:7323000420">+91 7323000420</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <strong>Address</strong>
+              <span>At, Pakhopali Rd, Thawe, Gopalganj,<br/>Bidesi Tola, Bihar 841440</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-clock"></i></div>
+            <div>
+              <strong>Business Hours</strong>
+              <span>Mon – Sat: 8:00 AM – 8:00 PM</span>
+              <span>Sunday: 9:00 AM – 2:00 PM</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a href="https://wa.me/918804442020" target="_blank" class="social-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp Us</a>
+          <a href="tel:8804442020" class="social-btn call"><i class="fas fa-phone"></i> Call Now</a>
+        </div>
+      </div>
+
+      <div class="contact-form-col">
+        <form class="contact-form" id="contactForm">
+          <h3>Send an Enquiry</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Your Name *</label>
+              <input type="text" placeholder="Aapka naam" required>
+            </div>
+            <div class="form-group">
+              <label>Phone Number *</label>
+              <input type="tel" placeholder="Mobile number" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Product / Service Required</label>
+            <select>
+              <option value="">-- Select Product --</option>
+              <option>Balu (River Sand)</option>
+              <option>Giti (Gravel/Aggregate)</option>
+              <option>Cement</option>
+              <option>TMT Rod / Steel Bar</option>
+              <option>Roofing & Shuttering</option>
+              <option>Waterproofing</option>
+              <option>Electrical Wire & Fittings</option>
+              <option>Construction Tools</option>
+              <option>Multiple Products</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Your Message</label>
+            <textarea placeholder="Tell us about your requirement, quantity, location for delivery..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-gold full-width">
+            <i class="fas fa-paper-plane"></i> Send Enquiry
+          </button>
+          <div class="form-success" id="formSuccess">
+            <i class="fas fa-check-circle"></i> Thank you! We will call you back shortly.
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <div class="map-container">
+      <div class="map-header">
+        <i class="fas fa-map-marked-alt"></i>
+        <h3>Find Us On Map</h3>
+      </div>
+      <div class="map-wrapper">
+        <iframe
+  src="https://maps.google.com/maps?q=26.442748,84.3881764&z=15&output=embed"
+  width="100%"
+  height="420"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
+      </div>
+      <div style="text-align:center;padding:18px 0 0;">
+        <a href="https://maps.google.com/?q=26.442748,84.3881764"
+target="_blank"
+class="btn btn-gold"
+style="display:inline-flex;margin:0 auto;">
+  <i class="fas fa-external-link-alt"></i> Open in Google Maps
+</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-icon"><i class="fas fa-hard-hat"></i></div>
+            <div>
+              <span class="logo-title">Sandeep Traders</span>
+              <span class="logo-sub">Building Materials</span>
+            </div>
+          </div>
+          <p>Bihar's trusted source for premium construction materials. Quality products, fair prices, timely delivery.</p>
+          <div class="footer-contacts">
+            <a href="tel:8804442020"><i class="fas fa-phone"></i> +91 8804442020</a>
+            <a href="tel:7323000420"><i class="fas fa-phone"></i> +91 7323000420</a>
+            <a href="https://wa.me/918804442020" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Our Products</h4>
+          <ul>
+            <li><a href="#products">Balu (River Sand)</a></li>
+            <li><a href="#products">Giti (Gravel)</a></li>
+            <li><a href="#products">Cement (OPC/PPC)</a></li>
+            <li><a href="#products">TMT Rod / Steel</a></li>
+            <li><a href="#products">Roofing & Shuttering</a></li>
+            <li><a href="#products">Waterproofing</a></li>
+            <li><a href="#products">Electrical Fittings</a></li>
+            <li><a href="#products">Construction Tools</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#owners">Our Team</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Location</h4>
+          <div class="footer-map-mini">
+            <iframe
+              src="https://maps.google.com/maps?q=26.442748,84.3881764&z=15&output=embed"
+              width="100%" height="160" style="border:0;border-radius:8px;" allowfullscreen="" loading="lazy">
+            </iframe>
+          </div>
+          <p style="margin-top:10px;font-size:13px;color:#9a8f7a;display:flex;align-items:flex-start;gap:6px;">
+            <i class="fas fa-map-marker-alt" style="color:var(--gold);margin-top:3px;flex-shrink:0;"></i>
+            At, Pakhopali Rd, Thawe, Gopalganj, Bidesi Tola, Bihar 841440
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2025 Sandeep Traders. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color:var(--gold)"></i> for Bihar's builders.</p>
+        <p style="font-size:12px;margin-top:4px;color:#555;">At, Pakhopali Rd, Thawe, Gopalganj, Bidesi Tola, Bihar 841440</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="main.js"></script>
+</body>
+</html>
